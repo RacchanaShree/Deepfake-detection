@@ -1,0 +1,16 @@
+{
+    "parameters": 20757922,
+    "params_million": 20.76,
+    "full": {
+        "accuracy": 87.67,
+        "auc": 0.9609
+    },
+    "video_only": {
+        "accuracy": 91.78,
+        "auc": 0.9549
+    },
+    "audio_only": {
+        "accuracy": 60.27,
+        "auc": 0.6496
+    }
+}

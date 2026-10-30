@@ -1,29 +1,65 @@
-# Datasets
+# ─── Datasets & Raw Data ─────────────────────────────────────────────────────
 dataset/
 FakeAVCeleb_v1.2/
 processed_data/
 
-# Models & Checkpoints
+# ─── Model Checkpoints ────────────────────────────────────────────────────────
 checkpoints/
 *.pth
 *.pt
 *.onnx
 
-# Python Environment & Cache
+# ─── Python Environment & Cache ───────────────────────────────────────────────
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .ipynb_checkpoints/
 .env
 venv/
-.gemini/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
 
-# IDE
+# ─── IDE & Editor ─────────────────────────────────────────────────────────────
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS specific
+# ─── OS Specific ──────────────────────────────────────────────────────────────
 Thumbs.db
 Desktop.ini
+.DS_Store
 
-# Output Reports (Optional, keeping report.md but ignoring docx if desired, but user might want docx)
-# Deepfake_Detection_Project_Report.docx
+# ─── Gemini / AI Tools ────────────────────────────────────────────────────────
+.gemini/
+
+# ─── Temp & Generated Intermediate Files ──────────────────────────────────────
+actual_docx_text.txt
+actual_docx_text_utf8.txt
+hybdetect_final_text.txt
+hybdetect_final_text_utf8.txt
+current_packages.txt
+model_params.txt
+model_summary.txt
+temp_paper.docx
+extract_docx.py
+convert_report.py
+
+# ─── Duplicate / Draft Documents ──────────────────────────────────────────────
+final-hybdetect.docx
+fully-revised-hybdetect.docx
+hybdetect-final.docx
+
+# ─── Keep these (explicitly tracked) ─────────────────────────────────────────
+# README.md
+# requirements.txt
+# LICENSE
+# ablation_results.json
+# confusion_matrix_final.png
+# roc_curve_final.png
+# *.py (source code)
+# demos/
